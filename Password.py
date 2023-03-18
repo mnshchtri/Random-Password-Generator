@@ -9,3 +9,4 @@ password = ''.join(secrets.choice(chars) for i in range(30))
 
 # Print the generated password
 print(password)
+print("Boom! you got a secure password")
